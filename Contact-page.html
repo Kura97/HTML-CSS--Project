@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    
+    <style>  
+
+        html {
+            text-align: center; /* center page contects*/
+        }
+      body{
+        background-image: url('background-image.png');
+        background-size: cover;
+        padding-top: 200px;
+
+         margin:0 auto; 
+    }
+
+
+    input[type=submit] {  /* botton formatting*/
+        background:rgb(255, 0, 0); 
+        font-size: 16px;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 5px; 
+        cursor: pointer;
+        
+    }
+    </style>
+
+    
+</head>
+<body>
+<label for="name"><strong>Your Name</strong></label><br>
+<input type="text" id="name"size="50px"><br><br>
+
+<label for="email"><strong>Your Email</strong></label><br>
+<input type="email" id="email"size="50px"><br><br>
+
+<label for="message"><strong>Your Message</strong></label><br>
+<textarea rows="20" cols="48" name="message"></textarea><br><br>
+
+<form>
+    <input type="submit" value="Send" />
+</form>
+</body>
+</html>
+    
